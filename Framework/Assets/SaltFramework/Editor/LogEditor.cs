@@ -22,7 +22,7 @@ public static class LogEditor
     //Add your custom Log class here  
     private static LogEditorConfig[] _logEditorConfig = new LogEditorConfig[]
     {
-            new LogEditorConfig("Assets/Scripts/Framework/Utils/DebugEx.cs", typeof(DebugEX)),
+            new LogEditorConfig("Assets/SaltFramework/Utils/DebugEx.cs", typeof(DebugEX)),
     };
 
     [UnityEditor.Callbacks.OnOpenAssetAttribute(-1)]
